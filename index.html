@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body>
-    <video autoplay muted loop id="myVideo">
-        <source src="Pexels Videos 4703.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-      </video>
+  </head>
+  <body>
+    <video
+      autoplay
+      muted
+      loop
+      id="myVideo"
+      src="Pexels Videos 4703.mp4"
+    ></video>
     <div id="box">
-    <div class="container">
+      <div class="container">
         <h2>
-            <span id="hours"></span>
-            : <span id="minutes"></span>
-            : <span id="seconds"></span>
+          <span id="hours"></span>
+          : <span id="minutes"></span> : <span id="seconds"></span>
         </h2>
         <h3 id="date"></h3>
+        <button type="button" id="button" onClick="changeBackground()">
+          Change Background!
+        </button>
+      </div>
     </div>
-    </div>
-</body>
+  </body>
 </html>
