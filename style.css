@@ -2,7 +2,7 @@
   font-size: 100px;
   text-align: center;
   color: white;
-  background-image: linear-gradient(black, teal, black);
+  background-image: linear-gradient(black, teal, rgb(160, 247, 20));
   opacity: 0.3;
   padding: 0px 100px;
   border-radius: 100px;
